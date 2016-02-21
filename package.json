@@ -2,6 +2,9 @@
   "name": "cohort-viz",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+    "dev": "cd src && python -m SimpleHTTPServer 8080"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrtns/cohort-viz.git"
