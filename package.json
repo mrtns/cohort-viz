@@ -3,11 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "cd src && python -m SimpleHTTPServer 8080"
+    "dev": "webpack-dev-server --inline",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrtns/cohort-viz.git"
   },
-  "author": "Martin Su"
+  "author": "Martin Su",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.9.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
 }

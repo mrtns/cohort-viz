@@ -1,5 +1,12 @@
+# Output
+dist/
+
 # Data
 data/
 
 # Tooling
 .idea/
+
+# npm
+node_modules/
+npm-debug.log
